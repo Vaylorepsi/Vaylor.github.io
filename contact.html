@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width inital-scale=1.0">
+        <link rel="stylesheet" href="CSS_Index.css">
+
+    </head>
+    <body>
+        <form action="mailto:kuras.maxime@gmail.com" method="post">
+
+            <label for="Nom">Nom / Pr&eacute;nom :</label><input type="text" placeholder="Pseudo" name="nom" autofocus id="Nom"><br>
+            <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp"><br>
+            M.</label><input type="radio" value="Monsieur" name="civilite">
+            Mme</label><input type="radio" value="Madame" name="civilite">
+            Genre : <select name="genre">
+                <option value="L">L</option>
+                <option value="G">G</option>
+                <option value="B">B</option>
+                <option value="T">T</option>
+                <option value="Autres">Autres</option>
+                </select><br>
+            Ville : <input type="text" placeholder="Localité" name="Localisation"><br>
+            <label for="Newsletter">Newsletter : </label><input type="checkbox" id="Newsletter"><br>
+            <label for="Message">Message : </label><textarea required id="Message" placeholder="&Eacute;crivez moi un message"></textarea><br>
+            <label for="email">E-mail : </label><input type="email" name="email" placeholder="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" required><br>
+            RGPD : <input type="radio" name="autorisation data"><br>
+            <input type="submit" value="Envoyer le message"><br>
+            <input type="date" name="date" id="date">
+        </form>
+        <a href="index.html">Revenir en arrière</a>
+    </body>
+</html>
