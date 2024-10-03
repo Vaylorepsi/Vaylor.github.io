@@ -1,6 +1,37 @@
-.first_part{color: cadetblue;}
-.Coordinates{color: blue;}
-.Hobbies{color: blue;}
-a:hover {color: red;}
-#orange {color: orange;}
-.para{color: blueviolet;}
+.first_part{
+    background-color: rgba(0, 247, 255, 0.597);
+    width: 70%;
+    border: 2px solid black;
+    margin: 1em 0 0 3em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 11px 13px 63px -2px rgba(0, 0, 0, 7);
+    -webkit-box-shadow: 11px 13px 63px -2px rgba(0, 0, 0, 7);
+    -moz-box-shadow: 11px 13px 63px -2px rgba(0, 0, 0, 7);
+
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 1em 0 0 2em;
+    padding: 1em;
+    border: ;
+    background-color: rgb(100, 23, 23);
+}
+
+a:hover {
+    color: red;
+}
+#PdP {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+@media screen and (max-width: 800px) {
+    #PdP {
+        display:none;
+    }
+
+}
